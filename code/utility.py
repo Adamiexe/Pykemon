@@ -12,7 +12,7 @@ def RollD20():
 
 def LoadData():
     try:
-        with open('bdd.json', 'r') as f:
+        with open('./jsondata/bdd.json', 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         print("Erreur: Le fichier bdd.json est introuvable.")

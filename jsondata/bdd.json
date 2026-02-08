@@ -1,26 +1,26 @@
 {
     "Mage":{
-        "armor":14,
-        "damage":[1,10],
-        "life":30,
+        "ac":14,
+        "damage_dice":[1,10],
+        "hp":30,
         "special":[4,10]
     },
     "Orc":{
-        "armor":12,
-        "damage":[3,6],
-        "life":45,
+        "ac":12,
+        "damage_dice":[3,6],
+        "hp":45,
         "special":[0,0]
     },
     "Rogue":{
-        "armor":17,
-        "damage":[1,4],
-        "life":35,
+        "ac":17,
+        "damage_dice":[1,4],
+        "hp":35,
         "special":[4,6]
     },
     "Warrior":{
-        "armor":15,
-        "damage":[2,6],
-        "life":50,
+        "ac":15,
+        "damage_dice":[2,6],
+        "hp":50,
         "special":[1,10]
     }
 }

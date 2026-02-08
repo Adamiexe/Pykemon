@@ -37,7 +37,7 @@ class Character:
         roll = RollD20()
 
         if roll > target.ac:
-            base_damage = RollDice(self.damage_dice)
+            base_damage = RollDice(*self.damage_dice)
             total_damage = self._calculate_damage(base_damage) 
             print(f"   Touche ! (Roll: {roll} vs AC: {target.ac})")
             target.take_damage(total_damage)
