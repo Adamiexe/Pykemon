@@ -3,24 +3,24 @@
         "ac":14,
         "damage_dice":[1,10],
         "hp":30,
-        "special":[4,10]
+        "Special":[4,10]
     },
     "Orc":{
         "ac":12,
         "damage_dice":[3,6],
         "hp":45,
-        "special":[0,0]
+        "Special":[0,0]
     },
     "Rogue":{
         "ac":17,
         "damage_dice":[1,4],
         "hp":35,
-        "special":[4,6]
+        "Special":[4,6]
     },
     "Warrior":{
         "ac":15,
         "damage_dice":[2,6],
         "hp":50,
-        "special":[1,10]
+        "Special":[1,10]
     }
 }

@@ -19,7 +19,7 @@ def LoadData():
         exit()
 
 def GetRandomTarget(potential_targets):
-    alive_targets = [t for t in potential_targets if t.is_alive()]
+    alive_targets = [t for t in potential_targets if t.IsAlive()]
     if alive_targets:
         return random.choice(alive_targets)
     return None
